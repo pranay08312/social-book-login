@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SocialBook</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    background:#f0f2f5;
+}
+
+/* Navbar */
+.navbar{
+    background:#1877f2;
+    padding:12px 0;
+    color:white;
+}
+
+.nav-container{
+    width:1000px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-login input{
+    padding:6px;
+    border:none;
+    border-radius:4px;
+    margin-right:8px;
+}
+
+.nav-login button{
+    background:#0d65d9;
+    color:white;
+    border:none;
+    padding:6px 12px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.nav-login button:hover{
+    background:#094db1;
+}
+
+/* Main Section */
+.main{
+    width:1000px;
+    margin:40px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.left{
+    width:50%;
+}
+
+.left h1{
+    color:#1877f2;
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.left p{
+    font-size:22px;
+}
+
+/* Signup Card */
+.right{
+    width:400px;
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.right h2{
+    margin-bottom:10px;
+}
+
+.right input{
+    width:100%;
+    padding:12px;
+    margin-bottom:10px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    font-size:15px;
+}
+
+.signup-btn{
+    width:100%;
+    background:#42b72a;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.signup-btn:hover{
+    background:#36a420;
+}
+
+.note{
+    text-align:center;
+    font-size:12px;
+    margin-top:15px;
+    color:gray;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .main{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .left{
+        width:100%;
+        margin-bottom:20px;
+    }
+
+    .right{
+        width:90%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="nav-container">
+        <div class="logo">SocialBook</div>
+        <div class="nav-login">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Login</button>
+        </div>
+    </div>
+</div>
+
+<!-- Main Section -->
+<div class="main">
+
+    <div class="left">
+        <h1>SocialBook</h1>
+        <p>Connect with friends and the world around you.</p>
+    </div>
+
+    <div class="right">
+        <h2>Create a new account</h2>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Mobile number or email">
+        <input type="password" placeholder="New password">
+        <button class="signup-btn">Sign Up</button>
+
+        <div class="note">
+            ⚠ This is a demo UI clone created for learning purpose only.
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
