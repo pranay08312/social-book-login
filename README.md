@@ -7,10 +7,7 @@ This project is created for practice and educational purposes to improve fronten
 
 ##  Live Demo
 
-(Add your GitHub Pages link here after deployment)
-
-Example:
-https://yourusername.github.io/socialbook-login-page/
+https://pranay08312.github.io/social-book-login/
 
 ---
 
